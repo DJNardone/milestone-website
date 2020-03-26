@@ -1,0 +1,197 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background-color: #1f202b;
+}
+
+#about {
+  height: 550px;
+}
+
+#portfolio {
+  height: 1000px;
+}
+
+#contact {
+  height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 700px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 466px;
+  margin: 0 auto;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 800px;
+  background: url(../img/hero-background.png) no-repeat;
+  background-position: bottom;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 30px;
+  padding-left: 40px;
+}
+
+nav {
+  float: right;
+  padding-right: 50px;
+  word-spacing: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+header h2 {
+    width: 700px;
+    clear: both;
+    font-family: 'source code pro', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #ffffff;
+    padding: 200px 0px 0px 100px;
+}
+header h2 span {
+    color: #fa0075;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio .half-width {
+  width: 550px;
+}
+
+#portfolio h2 {
+  font-family: 'source code pro', serif;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 20px;
+  color: #fa0075;
+}
+
+#portfolio h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: -30px;
+}
+
+#portfolio h4, p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#jub-pic {
+  padding: 50px 50px 0 100px;
+}
+
+#jub-text {
+  padding: 20px 100px 0px 50px;
+  text-align: left;
+}
+
+#rogue-text {
+  padding: 80px 50px 0px 101px;
+  text-align: right;
+}
+
+#rogue-pic {
+  padding: 110px 0px 0px 50px;
+}
+
+/***** ABOUT *****/
+
+#about {
+  background: url(../img/about-me.png) no-repeat;
+  background-position: top;
+}
+
+#about h2 {
+  font-family: 'source code pro', serif;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 40px;
+  color: #fa0075;
+}
+
+#about h3 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #1f202b;
+  padding-left: 100px;
+}
+
+#about p {
+  font-size: 20px;
+  color: #1f202b;
+  padding-left: 100px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  text-align: center;
+}
+
+#contact h2 {
+  font-family: 'source code pro', serif;
+  font-size: 36px;
+  padding: 20px 0px;
+  color: #fa0075;
+}
+
+#contact h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#contact p, #email-add {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 0px;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+    padding: 20px 50px 0px 10px;
+}
+
+/***** FOOTER *****/
+
+#copyright h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
